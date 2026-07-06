@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>Software Engineer Fresher - Dev Blog</h1>
+        
+        <!-- Image Tag -->
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width: 40px; height: 40px;">
+        </a>
+
+        <!-- Picture Tag for Responsive Images -->
+        <picture>
+            <source media="(max-width: 600px)" srcset="https://via.placeholder.com/150">
+            <img src="https://via.placeholder.com/300" alt="Profile Image" style="width: 80px; height: 80px; border-radius: 50%;">
+        </picture>
+
+        <!-- Video Tag -->
+        <video width="200" height="150" controls style="margin: 10px;">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Audio Tag -->
+        <audio controls style="margin: 10px;">
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Figure and Figcaption -->
+        <figure style="display: inline-block; margin: 10px;">
+            <img src="https://via.placeholder.com/100" alt="Code Sample" style="width: 100px;">
+            <figcaption>Code Examples</figcaption>
+        </figure>
+
+        <!-- Output Tag -->
+        <output id="result" style="display: block; margin: 10px;">Output: 5 + 3 = 8</output>
+    </header>
+
+    <main>
+        <div>
+            <h2>Languages to Master as a Fresher</h2>
+            <ol>
+                <li>JavaScript - Web Development</li>
+                <li>Python - Data Structures & Algorithms</li>
+                <li>Java - Backend Development</li>
+                <li>SQL - Database Management</li>
+            </ol>
+
+            <h2>Essential Tools for Freshers</h2>
+            <ul>
+                <li>Git & GitHub - Version Control</li>
+                <li>VS Code - Code Editor</li>
+                <li>Postman - API Testing</li>
+                <li>Chrome DevTools - Debugging</li>
+            </ul>
+
+            <h2>Web Terminology</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language used to create web pages</dd>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets used to style web pages</dd>
+                <dt>JavaScript</dt>
+                <dd>A programming language that enables interactive web pages</dd>
+            </dl>
+
+            <h2>Tech Stack I'm Learning</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Proficiency</th>
+                        <th>Status</th>
+                        <th>Projects</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>React</td>
+                        <td>Intermediate</td>
+                        <td>In Progress</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Node.js</td>
+                        <td>Beginner</td>
+                        <td>Learning</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>MongoDB</td>
+                        <td>Beginner</td>
+                        <td>Learning</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Total Projects Completed:</td>
+                        <td>6</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Fresher Application Form</h2>
+            <form>
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required minlength="3" maxlength="50">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password" required minlength="6">
+                </div>
+
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="number" id="phone" name="phone" placeholder="Enter phone number" required pattern="[0-9]{10}">
+                </div>
+
+                <div>
+                    <label for="experience">Years of Experience:</label>
+                    <input type="number" id="experience" name="experience" min="0" max="5">
+                </div>
+
+                <div>
+                    <label>Skills:</label>
+                    <input type="checkbox" id="java" name="skills" value="Java">
+                    <label for="java">Java</label>
+                    <input type="checkbox" id="python" name="skills" value="Python">
+                    <label for="python">Python</label>
+                    <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+
+                <div>
+                    <label>Employment Type:</label>
+                    <input type="radio" id="fulltime" name="employment" value="Full-time">
+                    <label for="fulltime">Full-time</label>
+                    <input type="radio" id="internship" name="employment" value="Internship">
+                    <label for="internship">Internship</label>
+                </div>
+
+                <div>
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="">Select Country</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Canada">Canada</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="bio">Bio:</label>
+                    <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself"></textarea>
+                </div>
+
+                <div>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+
+                <div>
+                    <label for="starttime">Preferred Start Time:</label>
+                    <input type="time" id="starttime" name="starttime">
+                </div>
+
+                <div>
+                    <label for="portfolio">Portfolio URL:</label>
+                    <input type="url" id="portfolio" name="portfolio" placeholder="https://example.com" required>
+                </div>
+
+                <div>
+                    <label for="salary">Expected Salary Range (in thousands):</label>
+                    <input type="range" id="salary" name="salary" min="0" max="100" value="50">
+                </div>
+
+                <div>
+                    <label for="profilecolor">Profile Color:</label>
+                    <input type="color" id="profilecolor" name="profilecolor">
+                </div>
+
+                <div>
+                    <label for="resume">Upload Resume:</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                </div>
+
+                <div>
+                    <label for="search">Search Skills:</label>
+                    <input type="search" id="search" name="search" placeholder="Search...">
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
