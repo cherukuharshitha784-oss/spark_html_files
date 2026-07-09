@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    color: green;
+    font-size: 18px;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+</style>
+</head>
+<body>
+
+<h1>Welcome to CSS</h1>
+<p>This is a styled paragraph.</p>
+<button>Click Me</button>
+
+</body>
+</html>

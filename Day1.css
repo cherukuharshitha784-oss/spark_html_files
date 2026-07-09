@@ -1,0 +1,78 @@
+/* 
+.heading1 {
+        color: blue;
+}
+.heading2 {
+        color: green;
+}
+.heading3 {
+        color: red;
+}
+.heading4 {
+        color: purple;
+}
+.heading5 {
+        color: orange;
+} */
+/* input [type=email]{
+        color:white;
+}
+input [type=password]{
+        color: blue;
+}
+input [type=file]{
+        color:yellow;
+}
+
+ div p{
+    
+        color:purple;
+ }
+
+ a:hover{
+        color:red;
+ }
+
+ul:first-child {
+    color:blue;
+    
+}
+ul:last-child{
+    color:green;
+}
+ul:nth-child(2){
+    color:orange;
+} */ */
+h1{
+    margin:10px;
+    padding:2px;
+    border:1px;
+    width:100px;
+    height:10px;
+
+}
+
+/* syntax :
+  selector {
+    property: value;
+  }
+  element sector {
+    property: value;
+   */
+/* <h1 class:heading> my webpage </h1> 
+   <h2 class:heading>   */
+
+
+/* class selector
+  . heading {
+    color: blue;
+  }
+  . h1. {color:red}
+  . h2. {color:green}
+  . h3. {color:purple}
+   */
+/* pseudo level selector
+a:hover {color:red} */
+/* a:visited{color:blue} 
+a:link{color:green}
+a:active {color:red}*/
